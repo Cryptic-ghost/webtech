@@ -1,20 +1,23 @@
 # Labo 3 - reflecties
 
-Naam: (jouw naam)
+Naam: (Ghia Mazzola)
 
 ## 1. Kleurenstalen
 
 - Welke twee waarden uit de user agent stylesheet moest je op de lijst wegwerken, en waar las je ze af?
+De bolletjes en de insprong, deze heb ik weggedaan door "list-style:none" en de margin op 0 te zetten.
+
 - Wat verandert er aan de banden als je het venster hoger maakt, en wat verandert er niet?
+De hoogte van de banden verandert, de text en breedte blijven hetzelfde.
 
 ## 2. Slogan
 
-- Welke property centreerde de tekst, en welke de kolom?
-- Waarom werkte de padding op de knop pas na `display: inline-block`?
+- Welke property centreerde de tekst, en welke de kolom?, text-align:center is voor de tekst, display:block voor de kolom.
+- Waarom werkte de padding op de knop pas na `display: inline-block`? /
 
 ## 3. Tabblad
 
-- Wat is de visuele breedte van het tabblad, en waarom is dat exact 15rem en geen 15rem plus padding plus border?
+- Wat is de visuele breedte van het tabblad, en waarom is dat exact 15rem en geen 15rem plus padding plus border? Omdat uw border en padding aan de binnenkant van het tabblad verschijnen.
 
 ## 4. Donut
 

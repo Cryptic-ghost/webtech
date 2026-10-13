@@ -2,7 +2,41 @@
 
 /* === tokens === */
 :root {
-
+--tekst:#282827;
+--geel:#fccc00;
 }
 
 /* === your rules === */
+body{
+    text-align: center;
+    font-family: arial;
+    color: var(--tekst);
+    padding:12rem;
+}
+h2 {
+    font-size: 8rem;   
+
+}
+h2, p{
+    margin-bottom: 1rem;
+}
+h2 span{
+    border-bottom: 1rem solid var(--geel);
+    border-radius: 100%;
+}
+p{
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    display: block;
+}
+a:hover,
+a:focus{
+    background-color: red;
+}
