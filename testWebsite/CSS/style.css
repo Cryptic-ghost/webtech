@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    height: 100vh;
+    gap: 2rem;
+    background-color: pink;
+}
+div{
+    border:.1rem solid red;
+}
+
+h1{
+    display: none;
+}
+
+@media (min-width:1000px) {
+    body{
+        background-color: lightcyan;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width:1400px) {
+    body{
+        background-color: lightgoldenrodyellow;
+        grid-template-columns: 1fr 1fr
+    }
+    h1{
+        display: show;
+    }
+}

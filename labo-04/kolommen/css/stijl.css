@@ -1,8 +1,54 @@
 /* stijl.css - labo 4, kolommen (reset.css is linked before this file) */
+/*:root met de kleuren van de opgave (2.9)
+
+tussenruimte maak je met gap , niet met marges op items (4.3, F4.7); 
+meeteenheden in rem,procent, fr of vh; 
+px alleen voor een rand;
+ geen id-selectors, geen !important
+de screenshots zijn genomen in een venster van 1280 bij 800 px;
+ lettertypes verschillen licht per besturingssysteem, kleuren en verhoudingen niet
+lees bij elk screenshot eerst: welke boxen zie ik, wat is de container, en één as of twee?
+Dan pas typen
+Tip: klik in DevTools op de badge flex of grid naast een element in de Elements-boom (syllabus
+4.9). De overlay toont je welke kinderen meedoen en waar de lijnen lopen; het is het snelste
+antwoord op "waarom staat dit niet waar ik het wil".*/
 
 /* === tokens === */
 :root {
-
-}
+  --font:arial;
+  --color-text:white;
+  }
 
 /* === your rules === */
+main{
+    display:flex;
+    min-height: 100vh;
+    gap:4vw;
+    padding: 10vh 4vw;
+ 
+
+
+}
+div{
+    color: var(--color-text);
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 4rem;
+       display: grid;
+    place-items: center;
+}
+div:nth-child(1){
+    flex:1;
+    background-color: darkturquoise;
+
+}
+div:nth-child(2){
+    flex:2;
+    background-color: darkviolet;
+
+}
+div:nth-child(3){
+    flex:1;
+    background-color: deepskyblue;
+
+}

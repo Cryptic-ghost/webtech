@@ -1,21 +1,22 @@
 # Labo 4 - reflecties
 
-Naam: (jouw naam)
+Naam: (Ghia Mazzola)
 
 ## 1. Drie kolommen
 
 - Op welk element staat `display: flex`, en op welke elementen staat `flex`?
-- Waarom staan die twee niet op hetzelfde element?
+Display:flex staat op de main, flex staat op de divs (children)
+- Waarom staan die twee niet op hetzelfde element? Omdat je de parent moet aanspreken om de children te kunnen aanpassen.
 
 ## 2. Navigatiebalk
 
-- Welke property verdeelt de ruimte langs de hoofdas, en welke lijnt uit op de kruisas?
-- Wat gebeurt er met de links als je `gap` vervangt door `margin-right` op elke `li`?
+- Welke property verdeelt de ruimte langs de hoofdas, en welke lijnt uit op de kruisas? justify content is voor de hoofd-as en align content is voor de kruisas.
+- Wat gebeurt er met de links als je `gap` vervangt door `margin-right` op elke `li`? er ontstaan geen gelijke spatieringen.
 
 ## 3. Mondriaan
 
 - Welke twee vlakken moest je expliciet plaatsen, en waarom volstond de impliciete vulling voor de andere vier?
-- Waarom is `gap` hier beter dan een border op elk vlak?
+- Waarom is `gap` hier beter dan een border op elk vlak? omdat de achtergrondkleur doorvloeit naar voor door de gap.
 
 ## 4. Trap
 
@@ -24,7 +25,7 @@ Naam: (jouw naam)
 
 ## 5. Dierenasiel Zonnehoek
 
-- Hoeveel layoutcontainers telt deze pagina, en welk gereedschap koos je voor elk?
+- Hoeveel layoutcontainers telt deze pagina, en welk gereedschap koos je voor elk? 
 - Verklein het venster tot de helft: wat breekt er, en in welk hoofdstuk wordt dat opgelost?
 
 ## Thuis: B4.1 (met AI of zonder AI)
