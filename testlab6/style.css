@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto auto;
+    height: 100vh;
+}
+main{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-rows: auto auto auto 1fr;
+}
+article{
+    border: 1rem solid black;
+    height: 10rem;
+    position: relative;
+}
+
+
+section.held{
+    background-color: lightpink;
+
+}
+aside{
+    background-color: yellow;
+}
+footer{
+    background-color: lightgreen;
+}
+span.badge{
+    background-color: red;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+}
+
+@media (min-width:45rem){
+    header{display: flex; gap: 5rem;}
+    nav{flex: 1;}
+    nav ul{flex-direction: row; height: 100%;}
+    nav ul li{margin: 0;flex: 1; display: grid;place-items: center;}
+    h1{margin-right: auto;}
+
+
+}
+@media(min-width:75rem){
+    body{
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+    height: 100vh;
+}
+header,.held,footer{grid-column: 1/3;}
+
+
+}

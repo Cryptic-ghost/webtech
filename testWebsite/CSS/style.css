@@ -1,17 +1,14 @@
-body{
-    display: grid;
-    height: 100vh;
-    gap: 2rem;
+.main{
+    color: blue;
+    background-color: blue;
+}
+p {
     background-color: pink;
 }
-div{
-    border:.1rem solid red;
+body{
+    background-color: green;
 }
-
-h1{
-    display: none;
-}
-
+/*
 @media (min-width:1000px) {
     body{
         background-color: lightcyan;
@@ -28,4 +25,4 @@ h1{
     h1{
         display: show;
     }
-}
+}*/

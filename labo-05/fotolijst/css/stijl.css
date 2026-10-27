@@ -6,3 +6,59 @@
 }
 
 /* === your rules === */
+body{
+    background-color: #111111;
+    display: grid;
+    place-items: center;
+
+}
+
+.lijst{
+    
+    width: 36rem;
+    margin: 4rem 0;
+    position: relative;
+
+
+}
+.lijst img{
+    width: 36rem;
+    aspect-ratio:3/3 ;
+    object-fit: cover;
+
+}
+
+figcaption{
+    color:#f3efe6;
+    font-family: verdana;
+    text-align:center;
+}
+.vlakje{
+    position:absolute;
+    width: 6rem;
+    height:6rem;
+
+}
+
+.roze{
+    background-color:#f2a7d6;
+    top:5rem;
+    left:5rem;
+    z-index: 2;
+}
+.groen{
+    background-color: #4e9a52;
+    top:2rem;
+    left:2rem;
+}
+.rood{
+    background-color:#ea4d3d;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 2;
+}
+.lime{
+    background-color: #b4f52d;
+    bottom: 6rem;
+    right: 6rem;
+}

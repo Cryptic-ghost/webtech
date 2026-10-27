@@ -1,21 +1,21 @@
 # Labo 5 - reflecties
 
-Naam: (jouw naam)
+Naam: (Ghia Mazzola)
 
 ## 1. Letterraster
 
-- Wat gebeurt er als je in de template één gebied een L-vorm geeft, en waarom?
-- Hoeveel declaraties zou dezelfde plaatsing met `grid-column` en `grid-row` vragen?
+- Wat gebeurt er als je in de template één gebied een L-vorm geeft, en waarom? 
+- Hoeveel declaraties zou dezelfde plaatsing met `grid-column` en `grid-row` vragen? 4
 
 ## 2. Citaten
 
-- Waarom lijnt de tweede rij bij 1280 px niet uit met de eerste zoals een grid dat zou doen?
-- Wat verandert er als je de basis van 18rem naar 30rem zet, en waarom?
+- Waarom lijnt de tweede rij bij 1280 px niet uit met de eerste zoals een grid dat zou doen? Omdat we niet zeggen dat ze perfect onder elkaar moeten staan, we zeggen gewoon dat ze dezelfde plaats moeten innemen.
+- Wat verandert er als je de basis van 18rem naar 30rem zet, en waarom? Het krimpt sneller, de 18rem is hoe groot het minimum mag zijn.
 
 ## 3. Fotolijst
 
-- Waar belanden de vlakjes als je `position: relative` van de lijst weghaalt, en waarom?
-- Waarom ligt roze zonder `z-index` onder groen?
+- Waar belanden de vlakjes als je `position: relative` van de lijst weghaalt, en waarom? allemaal rechts vanboven op elkaar. Je haalt de kooi weg van de leeuw.
+- Waarom ligt roze zonder `z-index` onder groen? Omdat roze vanboven is in de html.
 
 ## 4. Toonzaal
 

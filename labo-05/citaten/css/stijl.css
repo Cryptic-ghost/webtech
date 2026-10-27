@@ -6,3 +6,66 @@
 }
 
 /* === your rules === */
+
+
+
+.citaten{
+    display: flex;
+    flex-wrap: wrap;
+}
+.citaat{
+    flex:1 1 30rem;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 1.5;
+    padding:.5rem 1rem;
+    margin: 1.5rem;
+   
+       
+}
+.citaat cite{
+    font-weight: normal;
+    
+    
+}
+
+.citaat:nth-child(1){
+    color:#1e5bd8 ;
+    border-left: .5rem solid #1e5bd8;
+
+}
+
+.citaat:nth-child(2){
+    color:#e88bb4 ;
+    border-left: .5rem solid #e88bb4;
+}
+
+.citaat:nth-child(3){
+    color:#c51f2a ;
+    border-left: .5rem solid #c51f2a;
+}
+
+.citaat:nth-child(4){
+    color:#d98c1a ;
+    border-left: .5rem solid #d98c1a;
+}
+
+.citaat:nth-child(5){
+    color:#3b7a2a ;
+    border-left: .5rem solid #3b7a2a;
+}
+
+.citaat:nth-child(6){
+    color:#8fb89a ;
+    border-left: .5rem solid #8fb89a;
+}
+
+.citaat:nth-child(7){
+    color:#7b4fa3 ;
+    border-left: .5rem solid #7b4fa3;
+}
+
+.citaat:nth-child(8){
+    color:#6b6b6b ;
+    border-left: .5rem solid #6b6b6b;
+}

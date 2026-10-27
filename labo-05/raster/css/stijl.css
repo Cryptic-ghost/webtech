@@ -6,3 +6,59 @@
 }
 
 /* === your rules === */
+
+.raster{
+    color: white;
+    font-family: arial;
+    Gap: 1rem; 
+    padding: 1rem;
+    display:grid;
+    Height:100vh;
+    grid-template-areas:
+    "a . . b"
+    "c d e f"
+    "g . . h";
+    }
+
+.vlak{
+    display: grid;
+    text-align: right;
+    padding-top: .5rem;
+    padding-right: .75rem;
+}
+
+
+.a{
+ background-color:#e9493f ;
+ grid-area: a;
+ 
+}
+.b{
+ background-color:#edd24a ;
+ grid-area: b;
+}
+.c{
+ background-color: #072f55;
+ grid-area: c;
+}
+.d{
+ background-color: #52a51a;
+ grid-area: d;
+}
+.e{
+ background-color: #efaad9;
+ grid-area: e;
+}
+
+.f{
+ background-color: #a5f129;
+ grid-area: f;
+}
+.g{
+ background-color: #ebc47a;
+ grid-area: g;
+}
+.h{
+ background-color: #e8882c;
+ grid-area: h;
+}
